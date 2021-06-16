@@ -1,4 +1,7 @@
-img {
-  max-height: 40px;
-  width: auto;
+.download-badge {
+  height: 30px;
+}
+
+.social-icon {
+  height: 20px;
 }
