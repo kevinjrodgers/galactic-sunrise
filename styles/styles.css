@@ -11,8 +11,8 @@ body {
   text-align: center;
   position: relative;
   border-bottom: solid black 2px;
+  height: 40px;
   padding-bottom: 4px;
-
 }
 
 .nav-link {
@@ -35,6 +35,7 @@ body {
   height: 32px;
   position: absolute;
   left: 10px;
+  padding-top: 4px;
 }
 
 #game-logo {
