@@ -9,6 +9,7 @@ body {
 
 #main-nav {
   text-align: center;
+  position:relative;
 }
 
 .nav-link {
@@ -28,6 +29,8 @@ body {
 #company-logo {
   width: 48px;
   height: 32px;
+  position: absolute;
+  left: 10px;
 }
 
 #game-logo {
