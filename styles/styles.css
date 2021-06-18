@@ -11,10 +11,12 @@ body {
   text-align: center;
   position: relative;
   border-bottom: solid black 2px;
-  padding-bottom: 20px;
+  padding-bottom: 4px;
+
 }
 
 .nav-link {
+  display: inline-block;
   text-decoration: none;
   color: black;
   margin: 10px;
