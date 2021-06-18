@@ -10,6 +10,8 @@ body {
 #main-nav {
   text-align: center;
   position: relative;
+  border-bottom: solid black 2px;
+  padding-bottom: 20px;
 }
 
 .nav-link {
