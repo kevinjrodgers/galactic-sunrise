@@ -38,16 +38,19 @@ body {
   padding-top: 4px;
 }
 
+#content-wrapper {
+  text-align: center;
+  width: 100%;
+}
+
 #game-logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-
 #footer {
   position: absolute;
-  bottom: 10px;
   width: 100%;
   text-align: center;
 }
@@ -60,13 +63,24 @@ body {
   height: 20px;
 }
 
-#content-wrapper {
-  text-align: center;
-  width: 100%;
-}
-
-#content-wrapper p {
+#game-desc {
   max-width: 700px;
   margin: 0 auto;
   padding: 50px;
+}
+
+#key-features {
+  list-style-type: none;
+}
+
+.feature-item {
+  margin-bottom: 40px;
+}
+
+.feature-title {
+  font-weight: bold;
+}
+
+.feature-img {
+  border-style: solid;
 }
