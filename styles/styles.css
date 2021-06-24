@@ -1,5 +1,14 @@
 body {
   font-family: 'Libre Baskerville', serif;
+  margin: 0;
+}
+
+#header {
+  background-image: url('../images/clouds.png');
+  background-repeat: no-repeat;
+  background-position-y: 97%;
+  background-size: cover;
+  height: 400px;
 }
 
 #page-container {
@@ -12,7 +21,9 @@ body {
   position: relative;
   border-bottom: solid black 2px;
   height: 40px;
+  padding-top: 10px;
   padding-bottom: 4px;
+	background-color: rgba(40, 117, 164, 0.20);
 }
 
 .nav-link {
