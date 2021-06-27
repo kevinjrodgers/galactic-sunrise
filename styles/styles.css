@@ -27,11 +27,14 @@ body {
 	background-color: rgba(40, 117, 164, 0.20);
 }
 
-#company-logo {
-  width: 80px;
+#company-logo-link {
   position: absolute;
   left: 10px;
   padding-top: 4px;
+}
+
+#company-logo {
+  width: 80px;
 }
 
 .nav-link {
@@ -39,7 +42,7 @@ body {
   text-decoration: none;
   color: black;
   margin: 10px;
-  font-size: 24px;
+  font-size: 20px;
   padding-top: 7px;
 }
 
