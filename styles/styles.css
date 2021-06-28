@@ -54,6 +54,13 @@ body {
   transition-duration: 0.1s;
 }
 
+#social-links {
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  margin: 10px;
+}
+
 #content-wrapper {
   text-align: center;
   width: 60%;
@@ -83,7 +90,7 @@ body {
 }
 
 .social-icon {
-  height: 20px;
+  height: 28px;
 }
 
 #game-desc {
