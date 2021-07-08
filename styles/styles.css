@@ -77,6 +77,38 @@ body {
   margin-right: auto;
 }
 
+#game-desc {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+#key-features-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.feature-item {
+  margin-bottom: 40px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.feature-item p {
+  width: 300px;
+  padding: 100px;
+}
+
+.feature-title {
+  font-weight: bold;
+}
+
+.feature-img {
+  border-style: solid;
+  width: 450px;
+  height: 300px;
+}
 #faqs-header {
   margin-bottom: 28px;
 }
@@ -117,37 +149,4 @@ body {
 
 .social-icon {
   height: 28px;
-}
-
-#game-desc {
-  max-width: 700px;
-  margin: 0 auto;
-  padding: 50px;
-}
-
-#key-features-list {
-  list-style-type: none;
-  padding: 0;
-}
-
-.feature-item {
-  margin-bottom: 40px;
-  display: flex;
-  width: 100%;
-  justify-content: center;
-}
-
-.feature-item p {
-  width: 300px;
-  padding: 100px;
-}
-
-.feature-title {
-  font-weight: bold;
-}
-
-.feature-img {
-  border-style: solid;
-  width: 450px;
-  height: 300px;
 }
