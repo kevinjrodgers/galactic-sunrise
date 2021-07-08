@@ -27,23 +27,23 @@ const faqs = [
   },
   {
     "question" : "Will there be any DLC after the game releases?",
-    "answer" : "PC (Steam), iOS, and Android"
+    "answer" : "As of now there are no plans to release any DLC in the future."
   },
   {
     "question" : "Who's developing Galactic Sunrise?",
-    "answer" : "PC (Steam), iOS, and Android"
+    "answer" : "Star Fiend Studios is a 2-person team who specialize in stuff."
   },
   {
     "question" : "When will the game come out?",
-    "answer" : "PC (Steam), iOS, and Android"
+    "answer" : "Never!"
   },
   {
     "question" : "Is this game even real?",
-    "answer" : "PC (Steam), iOS, and Android"
+    "answer" : "Nope!"
   },
   {
     "question" : "Then what is this page for?",
-    "answer" : "PC (Steam), iOS, and Android"
+    "answer" : "This site was just a small, fun project to learn and practice web design, collaboration, and a bit of art!"
   }
 ];
 
