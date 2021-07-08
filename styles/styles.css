@@ -1,6 +1,16 @@
 body {
   font-family: 'Libre Baskerville', serif;
   margin: 0;
+  background-color: rgb(16,16,45);
+  color: coral;
+}
+
+#header {
+  background-image: url('../images/clouds.png');
+  background-repeat: no-repeat;
+  background-position-y: 97%;
+  background-size: cover;
+  height: 400px;
 }
 
 #page-container {
@@ -11,9 +21,21 @@ body {
 #main-nav {
   text-align: center;
   position: relative;
-  border-bottom: solid black 2px;
-  height: 40px;
+  border-bottom: solid rgb(53, 52, 52) 2px;
+  height: 70px;
+  padding-top: 10px;
   padding-bottom: 4px;
+	background-color: rgba(40, 117, 164, 0.20);
+}
+
+#company-logo-link {
+  position: absolute;
+  left: 10px;
+  padding-top: 4px;
+}
+
+#company-logo {
+  width: 80px;
 }
 
 .nav-link {
@@ -21,6 +43,8 @@ body {
   text-decoration: none;
   color: black;
   margin: 10px;
+  font-size: 20px;
+  padding-top: 7px;
 }
 
 .nav-link:hover {
@@ -31,17 +55,20 @@ body {
   transition-duration: 0.1s;
 }
 
-#company-logo {
-  width: 48px;
-  height: 32px;
+#social-links {
+  display: inline-block;
   position: absolute;
-  left: 10px;
-  padding-top: 4px;
+  right: 10px;
+  margin: 10px;
 }
 
 #content-wrapper {
   text-align: center;
-  width: 100%;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(30, 29, 55);
+  overflow: hidden;
 }
 
 #game-logo {
@@ -50,32 +77,27 @@ body {
   margin-right: auto;
 }
 
-#footer {
-  position: absolute;
-  width: 100%;
-  text-align: center;
-}
-
-.download-badge {
-  height: 30px;
-}
-
-.social-icon {
-  height: 20px;
-}
-
 #game-desc {
   max-width: 700px;
   margin: 0 auto;
   padding: 50px;
 }
 
-#key-features {
+#key-features-list {
   list-style-type: none;
+  padding: 0;
 }
 
 .feature-item {
   margin-bottom: 40px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.feature-item p {
+  width: 300px;
+  padding: 100px;
 }
 
 .feature-title {
@@ -84,4 +106,47 @@ body {
 
 .feature-img {
   border-style: solid;
+  width: 450px;
+  height: 300px;
+}
+#faqs-header {
+  margin-bottom: 28px;
+}
+
+#faqs-list {
+  list-style-type: none;
+  padding: 0;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.faqs-item {
+  margin-bottom: 30px;
+}
+
+.faqs-question {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.faqs-answer {
+  font-size: 15px;
+}
+
+#footer {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  background-image: linear-gradient(transparent, black);
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.download-badge {
+  height: 30px;
+}
+
+.social-icon {
+  height: 28px;
 }
