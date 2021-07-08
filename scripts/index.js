@@ -3,27 +3,27 @@
 const faqs = [
   {
     "question" : "What platforms will Galactic Sunrise be available on?",
-    "answer" : "PC (Steam), iOS, and Android"
+    "answer" : "Galactic Sunrise will be available in Steam on PC, but will later be released on Android and Apple devices, as well as Linux."
   },
   {
     "question" : "How much will the game cost on release?",
-    "answer" : "PC (Steam), iOS, and Android"
+    "answer" : "Once the game is in beta, it can be purchased for $15 USD. We plan to release the beta in Fall 2021. After the game is fully released, it can be purchased for $30 USD."
   },
   {
     "question" : "Is there a demo I can play before buying the game?",
-    "answer" : "PC (Steam), iOS, and Android"
+    "answer" : "Currently, a demo is not available, but we hope to have release one for testing in the near future!"
   },
   {
     "question" : "What genre is this game?",
-    "answer" : "PC (Steam), iOS, and Android"
+    "answer" : "Galactic Sunrise is a sci-fi turn-based roleplaying game."
   },
   {
     "question" : "Does this game have multiplayer?",
-    "answer" : "PC (Steam), iOS, and Android"
+    "answer" : "No, Galactic Sunrise will only be a single player game."
   },
   {
     "question" : "Where can I go to see updates about the game?",
-    "answer" : "PC (Steam), iOS, and Android"
+    "answer" : "You can see updates for our game in the Dev Blog link at the top of the page, as well as on Facebook, YouTube, Instagram, and Twitter."
   },
   {
     "question" : "Will there be any DLC after the game releases?",
