@@ -127,7 +127,7 @@ body {
 
 #key-features-list {
   list-style-type: none;
-
+  padding: 0;
 }
 
 .feature-item {
