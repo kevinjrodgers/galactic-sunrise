@@ -3,6 +3,7 @@ body {
   margin: 0;
   background-color: rgb(16,16,45);
   color: coral;
+  min-width: 400px;
 }
 
 #header {
@@ -202,6 +203,14 @@ body {
   .feature-item p {
     margin: 0 auto;
     padding: 5px;
+  }
+}
+
+@media only screen and (max-width: 749.98px) {
+  .feature-item img {
+    margin: 0 auto;
+    width: 96%;
+    height: 96%;
   }
 }
 
