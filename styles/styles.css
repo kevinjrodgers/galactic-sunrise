@@ -1,7 +1,7 @@
 body {
   font-family: 'Libre Baskerville', serif;
   margin: 0;
-  background-color: rgb(16,16,45);
+  background-color: rgb(16, 16, 45);
   color: coral;
 }
 
@@ -25,7 +25,7 @@ body {
   height: 70px;
   padding-top: 10px;
   padding-bottom: 4px;
-	background-color: rgba(40, 117, 164, 0.20);
+  background-color: rgba(40, 117, 164, 0.2);
 }
 
 #company-logo-link {
@@ -150,4 +150,41 @@ body {
 
 .social-icon {
   height: 28px;
+}
+
+.team-container {
+  text-align: center;
+  background-color: coral;
+  color: rgb(16, 16, 45);
+}
+
+.greeting {
+  font-weight: bold;
+  font-size: 19px;
+  margin-bottom: 28px;
+}
+
+.members-list {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  width: 50%;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 20px;
+}
+
+.member {
+  width: 300px;
+}
+
+.member-avatar {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.member-name {
+  font-weight: bold;
 }
