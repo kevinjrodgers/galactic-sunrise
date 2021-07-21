@@ -14,9 +14,9 @@ body {
   height: 400px;
 }
 
-#page-container {
-  position: relative;
-  min-height: 100vh;
+.page-container {
+  display: flex;
+  flex-direction: column;
 }
 
 #main-nav {
@@ -142,7 +142,6 @@ body {
 }
 
 #footer {
-  position: absolute;
   width: 100%;
   text-align: center;
   background-image: linear-gradient(transparent, black);
@@ -261,12 +260,10 @@ body {
 
   #company-logo-link {
     position: initial;
-
   }
 
   .nav-link {
     display: block;
-
   }
 
   .nav-link:hover {
@@ -276,7 +273,6 @@ body {
   #social-links {
     display: block;
     position: initial;
-
   }
 
   #game-logo {
