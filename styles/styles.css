@@ -1,9 +1,19 @@
+html {
+  height: 100%;
+}
+
 body {
   font-family: 'Libre Baskerville', serif;
   margin: 0;
   background-color: rgb(16, 16, 45);
   color: coral;
   min-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.team-page {
+  height: 100%;
 }
 
 #header {
@@ -14,10 +24,13 @@ body {
   height: 400px;
 }
 
+/*
 .page-container {
   display: flex;
   flex-direction: column;
+  height: 100%;
 }
+*/
 
 #main-nav {
   text-align: center;
@@ -69,7 +82,6 @@ body {
   margin-left: auto;
   margin-right: auto;
   background-color: rgb(30, 29, 55);
-  overflow: hidden;
 }
 
 #game-logo {
@@ -161,6 +173,7 @@ body {
   text-align: center;
   background-color: coral;
   color: rgb(16, 16, 45);
+  height: 100%;
 }
 
 .greeting {
