@@ -166,51 +166,6 @@ body {
   height: 28px;
 }
 
-.team-container {
-  text-align: center;
-  background-color: coral;
-  color: rgb(16, 16, 45);
-  height: 100%;
-}
-
-.team-greeting {
-  font-weight: bold;
-  font-size: 19px;
-  margin-bottom: 28px;
-}
-
-.team-desc {
-  width: 40%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.members-list {
-  display: flex;
-  list-style-type: none;
-  padding: 0;
-  width: 50%;
-  justify-content: center;
-  margin-top: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  gap: 20px;
-}
-
-.member {
-  width: 300px;
-}
-
-.member-avatar {
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
-  background-color: rgb(111, 174, 247);
-}
-
-.member-name {
-  font-weight: bold;
-}
 
 #game-desc {
   max-width: 700px;
@@ -244,6 +199,51 @@ body {
   height: 300px;
 }
 
+.team-container {
+  text-align: center;
+  background-color: coral;
+  color: rgb(16, 16, 45);
+}
+
+.team-greeting {
+  font-weight: bold;
+  font-size: 19px;
+  margin-bottom: 28px;
+}
+
+.team-desc {
+  width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.members-list {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  width: 50%;
+  justify-content: center;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 20px;
+}
+
+.member {
+  width: 300px;
+}
+
+.member-avatar {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(111, 174, 247);
+}
+
+.member-name {
+  font-weight: bold;
+}
+
 @media only screen and (min-width: 480px) and (max-width: 1199.98px) {
   /* screen size 768px and 992px look good when using this format*/
   .feature-item {
@@ -265,6 +265,15 @@ body {
     margin: 0 auto;
     width: 96%;
     height: 96%;
+  }
+
+  .members-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .team-desc {
+    width: 80%;
   }
 }
 
