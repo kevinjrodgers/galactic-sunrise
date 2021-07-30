@@ -244,6 +244,62 @@ body {
   font-weight: bold;
 }
 
+/* Dev Blog Page ----------------------------------------------------*/
+
+
+.blog-container {
+  background-color: coral;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: rgb(16, 16, 45);
+  width: 70%;
+  margin: 0 auto;
+}
+
+.blog-post {
+  margin: 25px;
+  margin-right: 250px;
+  width: 600px;
+  
+}
+
+.blog-history {
+  margin: 25px;
+  /*background-color: rgb(216, 136, 107);*/
+  position: -webkit-sticky;
+  position: sticky;
+  right: 20px;
+  height: 500px;
+  border-left: 1px solid gray;
+  box-shadow: -1px 0 0 #111;
+  padding-left: 15px;
+}
+
+#website-live-announcement-img {
+  width: 300px;
+  height: 300px;
+}
+
+/* Dev Blog Page End --------------------------------------------------*/
+
+/* Media Queries ------------------------------------------------------*/
+/*
+    320px — 480px: Mobile devices.
+    481px — 768px: iPads, Tablets.
+    769px — 1024px: Small screens, laptops.
+    1025px — 1200px: Desktops, large screens.
+    1201px and more — Extra large screens, TV.
+
+    Making 480px, 768px, 992px, and 1200px as breakpoints
+
+    Note: Offset your max-widths
+
+If you must you max-width, be sure to offset it by at least 0.02px.
+That is, use max-width: 479.98px instead of max-width: 480px, since
+the latter will have a small overlap with min-width: 480px.
+*/
+
 @media only screen and (min-width: 480px) and (max-width: 1199.98px) {
   /* screen size 768px and 992px look good when using this format*/
   .feature-item {
@@ -332,21 +388,4 @@ body {
   }
 }
 
-
-/*
-    320px — 480px: Mobile devices.
-    481px — 768px: iPads, Tablets.
-    769px — 1024px: Small screens, laptops.
-    1025px — 1200px: Desktops, large screens.
-    1201px and more — Extra large screens, TV.
-
-    Making 480px, 768px, 992px, and 1200px as breakpoints
-
-    Note: Offset your max-widths
-
-If you must you max-width, be sure to offset it by at least 0.02px.
-That is, use max-width: 479.98px instead of max-width: 480px, since
-the latter will have a small overlap with min-width: 480px.
-*/
-
-
+/* Media Queries End --------------------------------------------------*/
