@@ -257,10 +257,11 @@ body {
   margin: 0 auto;
 }
 
-.blog-post {
+#blog-post {
   margin: 25px;
   margin-right: 250px;
   width: 600px;
+  height: 900px;
   
 }
 
@@ -279,6 +280,41 @@ body {
 #website-live-announcement-img {
   width: 300px;
   height: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+.next-previous-bar {
+  position: relative;
+  height: 3em;
+}
+
+.next-previous-bar p{
+  display: inline-block;
+
+}
+
+#next-previous-bar-left {
+  position: absolute;
+  left: 0;
+}
+
+#next-previous-bar-right {
+  position: absolute;
+  right: 0;
+}
+
+.next-previous-bar a {
+  
+}
+.next-previous-bar a:link {
+  color: rgb(16, 16, 45); 
+}
+
+.next-previous-bar a:visited {
+  color: rgb(16, 16, 45); 
 }
 
 /* Dev Blog Page End --------------------------------------------------*/
