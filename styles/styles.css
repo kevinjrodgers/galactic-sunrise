@@ -47,6 +47,7 @@ body {
 
 .nav-link {
   display: inline-block;
+  border-bottom-color: transparent;
   text-decoration: none;
   color: black;
   margin: 10px;
@@ -59,11 +60,9 @@ body {
 }
 
 .nav-link:hover {
-  border-bottom-style: solid;
-  border-bottom-color: purple;
-  border-bottom-width: 3px;
-  border-spacing: 2px;
-  transition-duration: 0.1s;
+  border-bottom: 3px solid purple;
+  transition-duration: 0.105s;
+  transition-property: border-bottom-color;
 }
 
 #social-links {
@@ -262,7 +261,7 @@ body {
   margin-right: 250px;
   width: 600px;
   height: 900px;
-  
+
 }
 
 .blog-history {
@@ -307,14 +306,14 @@ body {
 }
 
 .next-previous-bar a {
-  
+
 }
 .next-previous-bar a:link {
-  color: rgb(16, 16, 45); 
+  color: rgb(16, 16, 45);
 }
 
 .next-previous-bar a:visited {
-  color: rgb(16, 16, 45); 
+  color: rgb(16, 16, 45);
 }
 
 /* Dev Blog Page End --------------------------------------------------*/
