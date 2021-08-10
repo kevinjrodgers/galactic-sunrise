@@ -62,7 +62,6 @@ body {
 .nav-link:hover {
   border-bottom: 3px solid purple;
   transition-duration: 0.105s;
-  transition-property: border-bottom-color;
 }
 
 #social-links {
