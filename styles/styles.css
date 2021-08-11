@@ -260,7 +260,12 @@ body {
   margin-right: 250px;
   width: 600px;
   height: 900px;
+}
 
+.blog-img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
 }
 
 .blog-history {
@@ -334,6 +339,26 @@ That is, use max-width: 479.98px instead of max-width: 480px, since
 the latter will have a small overlap with min-width: 480px.
 */
 
+@media only screen and (max-width: 1600px) {
+  .blog-container {
+    width: 1130px;
+  }
+}
+
+@media only screen and (max-width: 1130px) {
+  .blog-container {
+    width: 100%;
+  }
+
+  #blog-post {
+    margin: 25px auto;
+  }
+
+  .blog-history {
+    display: none;
+  }
+}
+
 @media only screen and (min-width: 480px) and (max-width: 1199.98px) {
   /* screen size 768px and 992px look good when using this format*/
   .feature-item {
@@ -364,6 +389,10 @@ the latter will have a small overlap with min-width: 480px.
 
   .team-desc {
     width: 80%;
+  }
+
+  #blog-post {
+    margin: 25px;
   }
 }
 
