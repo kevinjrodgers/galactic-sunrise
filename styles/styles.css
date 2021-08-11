@@ -347,11 +347,7 @@ the latter will have a small overlap with min-width: 480px.
   }
 
   #blog-post {
-    margin: 25px auto;
-  }
-
-  .blog-history {
-    display: none;
+    margin: 25px auto 25px 25px;
   }
 }
 
@@ -370,6 +366,7 @@ the latter will have a small overlap with min-width: 480px.
     padding: 5px;
   }
 }
+
 
 @media only screen and (max-width: 749.98px) {
   #social-links {
@@ -405,6 +402,10 @@ the latter will have a small overlap with min-width: 480px.
 
   #blog-post {
     margin: 25px;
+  }
+
+  .blog-history {
+    display: none;
   }
 }
 
