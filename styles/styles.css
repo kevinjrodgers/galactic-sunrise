@@ -380,6 +380,14 @@ the latter will have a small overlap with min-width: 480px.
     top: 10px;
   }
 
+  #game-logo {
+    width: 100%;
+  }
+
+  #header {
+    height: auto;
+  }
+
   .feature-item img {
     margin: 0 auto;
     width: 96%;
