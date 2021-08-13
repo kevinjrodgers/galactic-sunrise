@@ -13,10 +13,6 @@ body {
   flex-direction: column;
 }
 
-.team-page {
-  height: 100%;
-}
-
 #header {
   background-image: url('../images/clouds.png');
   background-repeat: no-repeat;
@@ -50,9 +46,8 @@ body {
   border-bottom-color: transparent;
   text-decoration: none;
   color: black;
-  margin: 10px;
+  margin: 20px 10px;
   font-size: 20px;
-  padding-top: 7px;
 }
 
 .nav-link.light {
@@ -65,10 +60,11 @@ body {
 }
 
 #social-links {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   position: absolute;
-  right: 10px;
-  margin: 10px;
+  right: 20px;
+  top: 28px;
 }
 
 #content-wrapper {
@@ -260,7 +256,12 @@ body {
   margin-right: 250px;
   width: 600px;
   height: 900px;
+}
 
+.blog-img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
 }
 
 .blog-history {
@@ -334,6 +335,22 @@ That is, use max-width: 479.98px instead of max-width: 480px, since
 the latter will have a small overlap with min-width: 480px.
 */
 
+@media only screen and (max-width: 1600px) {
+  .blog-container {
+    width: 1130px;
+  }
+}
+
+@media only screen and (max-width: 1130px) {
+  .blog-container {
+    width: 100%;
+  }
+
+  #blog-post {
+    margin: 25px auto 25px 25px;
+  }
+}
+
 @media only screen and (min-width: 480px) and (max-width: 1199.98px) {
   /* screen size 768px and 992px look good when using this format*/
   .feature-item {
@@ -350,7 +367,24 @@ the latter will have a small overlap with min-width: 480px.
   }
 }
 
+
 @media only screen and (max-width: 749.98px) {
+  #social-links {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    width: 60px;
+    top: 10px;
+  }
+
+  #game-logo {
+    width: 100%;
+  }
+
+  #header {
+    height: auto;
+  }
+
   .feature-item img {
     margin: 0 auto;
     width: 96%;
@@ -364,6 +398,14 @@ the latter will have a small overlap with min-width: 480px.
 
   .team-desc {
     width: 80%;
+  }
+
+  #blog-post {
+    margin: 25px;
+  }
+
+  .blog-history {
+    display: none;
   }
 }
 
@@ -382,6 +424,8 @@ the latter will have a small overlap with min-width: 480px.
 
   .nav-link {
     display: block;
+    margin-top: 0;
+    margin-bottom: 16px;
   }
 
   .nav-link:hover {
@@ -389,8 +433,8 @@ the latter will have a small overlap with min-width: 480px.
   }
 
   #social-links {
-    display: block;
     position: initial;
+    width: 100%;
   }
 
   #game-logo {

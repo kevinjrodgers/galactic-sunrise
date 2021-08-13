@@ -26,22 +26,29 @@ function createJulyPost() {
   blogLiveAnnouncementImg.setAttribute('src', 'images/dev-blog/yay-hooray-website-is-live.png');
 
   let paragraphOne = document.createElement('p');
+<<<<<<< HEAD
   let paragraphOneText = document.createTextNode(
     'We at Star Fiend Studios are very excited to announce the official launch of our website!'
   );
+=======
+  let paragraphOneText = document.createTextNode(`We at Star Fiend Studio are
+    very excited to announce the official launch of our website!`);
+>>>>>>> 0cbe0b3ffbadf294a4c765973a0997ee6ddf9acf
 
   let paragraphTwo = document.createElement('p');
   let paragraphTwoText =
-    document.createTextNode(`Many of our users and patreons have been excitedly asking for updates about Galactic Sunrise.
-                                                    We thought it would be a great idea to create a website in order to facilitate answering any
-                                                    of your questions as well as allowing a way for people to stay up to date with news and updates
-                                                    for the game!`);
+    document.createTextNode(`Many of our users and patreons have been excitedly
+      asking for updates about Galactic Sunrise. We thought it would be a great
+      idea to create a website in order to facilitate answering any of your
+      questions as well as allowing a way for people to stay up to date with
+      news and updates for the game!`);
 
   let paragraphThree = document.createElement('p');
   let paragraphThreeText =
-    document.createTextNode(`We hope you all are just as excited about the game as we are and be please sure to subscribe to
-                                                    our newsletter. We will be sending out monthly updates on the game through email and on our webiste
-                                                    so you can be stay up to date with the latest news!`);
+    document.createTextNode(`We hope you all are just as excited about the game
+      as we are and be please sure to subscribe to our newsletter. We will be
+      sending out monthly updates on the game through email and on our webiste
+      so you can be stay up to date with the latest news!`);
 
   blogHeader.appendChild(blogHeaderText);
   blogPost.appendChild(blogHeader);
@@ -70,24 +77,32 @@ function createAugPost() {
 
   let gameLogoImg = document.createElement('img');
   gameLogoImg.setAttribute('src', 'images/galactic-sunrise.png');
+  gameLogoImg.classList.add('blog-img');
 
   let paragraphOne = document.createElement('p');
   let paragraphOneText =
+<<<<<<< HEAD
     document.createTextNode(`As many of you know, we at Star Fiend Studios are working on a turn-based rpg called Galactic Sunrise.
                                                   We thought it would be best to formally introduce it!`);
+=======
+    document.createTextNode(`As many of you know, we at Star Fiend Studio are
+      working on a turn-based rpg called Galactic Sunrise. We thought it would
+      be best to formally introduce it!`);
+>>>>>>> 0cbe0b3ffbadf294a4c765973a0997ee6ddf9acf
 
   let paragraphTwo = document.createElement('p');
   let paragraphTwoText =
-    document.createTextNode(`Although it is very early in the works, it will be a sci-fi rpg heavily inspired by a game called Golden
-                                                  Sun back on the GameBoy Advance. Golden Sun has a soft spot in our hearts. We hope to capture that same
-                                                  sense of wonder and excitment in Galactic Sunrise that we had when playing Golden Sun. We truly hope that
-                                                  Galactic Sunrise will be an unforgettable experience for players that have never player Golden Sun and players
-                                                  that are die hard fans of the series!`);
+    document.createTextNode(`Although it is very early in the works, it will be
+      a sci-fi rpg heavily inspired by a game called Golden Sun back on the GameBoy
+      Advance. Golden Sun has a soft spot in our hearts. We hope to capture that
+      same sense of wonder and excitment in Galactic Sunrise that we had when playing
+      Golden Sun. We truly hope that Galactic Sunrise will be an unforgettable
+      experience for players that have never player Golden Sun and players that
+      are die hard fans of the series!`);
 
   let paragraphThree = document.createElement('p');
-  let paragraphThreeText = document.createTextNode(
-    `We will be showcasing some of the concept art in the next update. We hope to see you then!`
-  );
+  let paragraphThreeText = document.createTextNode(`We will be showcasing some
+    of the concept art in the next update. We hope to see you then!`);
 
   blogHeader.appendChild(blogHeaderText);
   blogPost.appendChild(blogHeader);
