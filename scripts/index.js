@@ -11,7 +11,7 @@ const faqs = [
   },
   {
     "question" : "Is there a demo I can play before buying the game?",
-    "answer" : "Currently, a demo is not available, but we hope to have release one for testing in the near future!"
+    "answer" : "Currently, a demo is not available, but we hope to release one for testing in the near future!"
   },
   {
     "question" : "What genre is this game?",

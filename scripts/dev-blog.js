@@ -34,16 +34,15 @@ function createJulyPost() {
   let paragraphTwoText =
     document.createTextNode(`Many of our users and patreons have been excitedly
       asking for updates about Galactic Sunrise. We thought it would be a great
-      idea to create a website in order to facilitate answering any of your
-      questions as well as allowing a way for people to stay up to date with
-      news and updates for the game!`);
+      idea to create a website to help answer any of your questions and create 
+      a way for people to stay up to date with news and updates for the game!`);
 
   let paragraphThree = document.createElement('p');
   let paragraphThreeText =
     document.createTextNode(`We hope you all are just as excited about the game
-      as we are and be please sure to subscribe to our newsletter. We will be
-      sending out monthly updates on the game through email and on our webiste
-      so you can be stay up to date with the latest news!`);
+      as much as we are and please be sure to subscribe to our newsletter. We will be
+      sending out monthly updates on the game through email and on our website
+      so you can stay up to date with the latest news!`);
 
   blogHeader.appendChild(blogHeaderText);
   blogPost.appendChild(blogHeader);
@@ -82,11 +81,11 @@ function createAugPost() {
   let paragraphTwo = document.createElement('p');
   let paragraphTwoText =
     document.createTextNode(`Although it is very early in the works, it will be
-      a sci-fi rpg heavily inspired by a game called Golden Sun back on the GameBoy
+      a sci-fi rpg heavily inspired by a game called Golden Sun back on the Game Boy
       Advance. Golden Sun has a soft spot in our hearts. We hope to capture that
-      same sense of wonder and excitment in Galactic Sunrise that we had when playing
-      Golden Sun. We truly hope that Galactic Sunrise will be an unforgettable
-      experience for players that have never player Golden Sun and players that
+      same sense of wonder and excitment in Galactic Sunrise that we experienced when 
+      playing Golden Sun. We truly hope that Galactic Sunrise will be an unforgettable
+      experience for players that have never played Golden Sun and players that
       are die hard fans of the series!`);
 
   let paragraphThree = document.createElement('p');
