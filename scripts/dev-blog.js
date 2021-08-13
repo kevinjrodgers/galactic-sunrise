@@ -26,14 +26,9 @@ function createJulyPost() {
   blogLiveAnnouncementImg.setAttribute('src', 'images/dev-blog/yay-hooray-website-is-live.png');
 
   let paragraphOne = document.createElement('p');
-<<<<<<< HEAD
   let paragraphOneText = document.createTextNode(
     'We at Star Fiend Studios are very excited to announce the official launch of our website!'
   );
-=======
-  let paragraphOneText = document.createTextNode(`We at Star Fiend Studio are
-    very excited to announce the official launch of our website!`);
->>>>>>> 0cbe0b3ffbadf294a4c765973a0997ee6ddf9acf
 
   let paragraphTwo = document.createElement('p');
   let paragraphTwoText =
@@ -81,14 +76,8 @@ function createAugPost() {
 
   let paragraphOne = document.createElement('p');
   let paragraphOneText =
-<<<<<<< HEAD
     document.createTextNode(`As many of you know, we at Star Fiend Studios are working on a turn-based rpg called Galactic Sunrise.
                                                   We thought it would be best to formally introduce it!`);
-=======
-    document.createTextNode(`As many of you know, we at Star Fiend Studio are
-      working on a turn-based rpg called Galactic Sunrise. We thought it would
-      be best to formally introduce it!`);
->>>>>>> 0cbe0b3ffbadf294a4c765973a0997ee6ddf9acf
 
   let paragraphTwo = document.createElement('p');
   let paragraphTwoText =
