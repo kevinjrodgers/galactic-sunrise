@@ -27,7 +27,7 @@ function createJulyPost() {
 
   let paragraphOne = document.createElement('p');
   let paragraphOneText = document.createTextNode(
-    'We at Star Fiend Studio are very excited to announce the official launch of our website!'
+    'We at Star Fiend Studios are very excited to announce the official launch of our website!'
   );
 
   let paragraphTwo = document.createElement('p');
@@ -73,7 +73,7 @@ function createAugPost() {
 
   let paragraphOne = document.createElement('p');
   let paragraphOneText =
-    document.createTextNode(`As many of you know, we at Star Fiend Studio are working on a turn-based rpg called Galactic Sunrise.
+    document.createTextNode(`As many of you know, we at Star Fiend Studios are working on a turn-based rpg called Galactic Sunrise.
                                                   We thought it would be best to formally introduce it!`);
 
   let paragraphTwo = document.createElement('p');
